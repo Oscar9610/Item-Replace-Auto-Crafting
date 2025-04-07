@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#replace:complete_block"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirements"
+    ]
+  ],
+  "rewards": {
+    "function": "replace:detect/placed_block"
+  }
+}
